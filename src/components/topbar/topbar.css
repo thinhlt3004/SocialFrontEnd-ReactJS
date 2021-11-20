@@ -1,0 +1,193 @@
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.topbarLeft{
+    flex: 3;
+    /* background-color: red; */
+}
+.topbarCenter{
+    flex: 5;
+    /* background-color: rgb(110, 89, 89); */
+}
+.topbarRight{
+    flex: 4;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+}
+.topbarLink{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* display: flex; cho tat ca trong block ve 1 hang  */
+.topbarIcons{
+    display: flex;
+    margin-left: 105px;
+}
+.topbarIconItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+.topbarIconBadge{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 12px;
+}
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+
+.searchBar{
+    width: 100%;
+    height : 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.searchIcon{
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+.searchInput{
+    border: none;
+    width: 90%;
+}
+/* Khi focus input , nó sẽ bỏ cái viền outline bên ngoài !Important */
+.searchInput:focus{
+    outline: none;
+}
+.topbarImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    /* margin-right: 0; */
+}
+.topBarUserName{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-weight: 500px;
+    text-decoration: none;
+    color:white;
+}
+.toProfile{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toProfile{
+    text-decoration: none;
+    color:white;
+}
+.notificationsBlock{
+    position: fixed;
+    top: 50px;
+    right: 200px;
+    color: black;
+    width : 350px;
+    background-color:white;
+    border-radius: 0 0 15px 15px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    height: 450px;
+    overflow-y: scroll;
+}
+.notificationsTop{
+    font-weight: 500;
+    font-size: 25px;
+    padding: 20px 20px 10px 20px;
+    width: fit-content;
+}
+.notificationsBottom{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.notificationsBottom:hover{
+    background-color: #F2F3F5;
+    border-radius: 0 0 15px 15px;
+}
+.blockSearch{
+    position: fixed;
+    top: 42px;
+    background-color: white;
+    width: 709px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius:10px;
+}
+.CloseiconSearchBar{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.currentUserInfo{
+    display: flex;
+    align-content: center;
+    cursor: pointer;
+   
+}
+.dropDownIcon{
+    margin-left: -15px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.dropdownMenu{
+    position: fixed;
+    top: 50px;
+    right: 55px;
+    background-color: white;
+    color:black;
+    width: 250px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    border-radius: 15px;
+}
+
+.requestedFriendBlock{
+    position: fixed;
+    top: 50px;
+    right: 250px;
+    color: black;
+    width : 300px;
+    background-color:white;
+    border-radius: 0 0 15px 15px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    height: 450px;
+    overflow-y: scroll;
+}

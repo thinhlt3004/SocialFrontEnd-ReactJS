@@ -1,0 +1,6 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+    /* align-items: center; Canh Vi tri cua text trong block
+    justify-content: center; Canh vi tri cua block so voi Screen*/
+}

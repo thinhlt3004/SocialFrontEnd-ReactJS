@@ -1,0 +1,40 @@
+.OptionTopBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+}
+.OptionTopBarProfile{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.logOut{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.profileDiv:hover{
+    background-color: #f2f3f5;
+    border-radius: 15px;
+}
+.logoutDiv:hover{
+    background-color: #f2f3f5;
+    border-radius: 15px;
+}
+.profileDiv{
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.logoutDiv{
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    cursor: pointer;
+}

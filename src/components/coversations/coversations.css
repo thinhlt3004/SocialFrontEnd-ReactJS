@@ -1,0 +1,97 @@
+.conversations{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.conversations:hover{
+    background-color: rgba(245,243,243);
+}
+.coversationImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.conversationName{
+    font-weight: 500;
+}
+.GroupConversations{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.infoConversation{
+    display: flex;
+    align-content: center;
+}
+.groupConversationName{
+    margin-top: 10px;
+}
+
+.GroupConversations:hover{
+    background-color: rgba(245,243,243);
+}
+.iconConversation{
+    display: flex;
+    margin-right: 55px;
+    margin-top: 5px;
+}
+.iconGroupConversation{
+    margin-right: 15px;
+}
+.iconGroupConversation:hover{
+    color: red;
+}
+
+.memberContainer{
+    position:fixed;
+    top: 500px;
+    height: 300px;
+    width:400px;
+    left:75%;
+    overflow-y: scroll;
+    background-color: #f2f3f5;
+    border-radius:15px;
+}
+.memberContainerFriend{
+    position:fixed;
+    top: 180px;
+    height: 300px;
+    width:400px;
+    left:75%;
+    overflow-y: scroll;
+    background-color: #f2f3f5;
+    border-radius:15px;
+}
+.headerMemberContainer{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+.titleHeaderMember{
+    margin: 10px;
+}
+.MemberName{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.grOupName{
+    /* font-weight: 500; */
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 25px;
+}
+.grOupName:hover{
+    color: red;
+}
+
+.changeAvatarGroup{
+    cursor: pointer;
+}

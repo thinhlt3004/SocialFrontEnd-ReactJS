@@ -1,0 +1,128 @@
+.chatbox{    
+    width:328px;
+    background:white;
+    border-radius:25px 25px 0px 0px;   
+    margin-right: 20px;
+    /* height: calc(100vh - 450px); */
+    height: 450px;
+}
+.chatBoxWrapperHome{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+    height: 100%;
+    margin-right: 15px;
+}
+.chatboxTops{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(245,241,241);
+    border-radius:10px 10px 0px 0px;   
+    padding: 5px;
+}
+.FriendInfo{
+    display: flex;
+    align-items:center;
+}
+.FriendImg{
+    height:32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.FriendName{
+    margin-left: 5px;
+}
+
+.closeIcon{
+    cursor: pointer;
+}
+.chatBoxCenter{
+    height: 100%;
+    overflow-y: scroll;
+    margin: 3px;
+}
+.messagesItem{
+    display: flex;
+    border-radius:5px;
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 5px;
+}
+.messageTopSide{
+    background-color: #1877f2;
+    color: white;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    border-radius:15px;
+}
+.MessageText{
+    margin-left: 5px;
+}
+.FriendImgMessage{
+    height:32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+.timeofMessage{
+    font-weight: 400;
+    font-size:13px;
+    /* text-align: right; */
+}
+.messagesItem.own{
+    align-items:flex-end;
+   
+}
+.messagesItem.own .messageTopSide{
+    background-color: rgba(245,241,241);
+    color: black;
+}
+
+.chatBoxBottom{
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    padding: 5px;
+}
+
+.chatMessageSend{
+    border-radius: 15px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: rgba(245,241,241);
+    margin-left: 10px;
+}
+.chatMessageSend:focus{
+    outline: none;
+}
+
+.loadingChat{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.messageLoading{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    top: 50%;
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 45%;
+    margin-right: 40%;
+    border-radius:50%;
+}
+.loadingRollMessage{
+    margin-top: 150px;
+    height: 40px;
+    width: 40px;
+    margin-left: 45%;
+    border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+.feelings{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.optionFeelings{
+    width: 40%;
+    padding: 15px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.optionFeelings:hover{
+    background-color: #F2F3F5;
+    border-radius: 15px;
+}

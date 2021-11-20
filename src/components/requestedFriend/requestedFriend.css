@@ -1,0 +1,42 @@
+.requestedBlock{
+    display: flex;
+    align-content:  center;
+    padding: 10px;
+}
+
+.requestedBlock:hover{
+    background-color: #F2F3F5;
+    border-radius: 15px;
+}
+.blockInfoRequested{
+    margin-left: 25px;
+}
+
+.FriendImage{
+    width: 60px;
+    height: 60px;
+    border-radius:  50%;
+}
+.optionAcceptCancel{
+    display: flex;
+    align-content: center;
+    margin-top: 10px;
+}
+.AcceptButton{
+    margin-right: 15px;
+    background-color: #1877f2;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 40px;
+}
+.CancelButton{
+    margin-right: 15px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80px;
+}

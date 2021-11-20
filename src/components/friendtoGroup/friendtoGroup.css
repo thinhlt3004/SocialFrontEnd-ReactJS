@@ -1,0 +1,94 @@
+.friendtoGroup{
+    position: relative;
+    height: 100%;
+}
+
+.title{
+    margin: 15px;
+}
+
+.nameOfGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    /* margin: 10px; */
+}
+
+.nameTitle{
+    margin-left: 10px;
+}
+
+.nameGroup{
+    margin: 10px;
+    border: none;
+    background-color: #f2f3f5;
+    padding: 10px;
+    border-radius:15px;
+}
+
+.nameGroup:focus{
+    outline: none;
+}
+
+.imageOfGroup{
+    display: flex;
+}
+
+.imageTitle{
+    margin-left: 10px;
+}
+
+.imgBlockGroup{
+    margin-top: 15px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+}
+.shareOption:hover{
+    color: red;
+}
+.imgGroup{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.imgCancel{
+    position: absolute;
+    top: -25px;
+    right: 50px;
+    cursor: pointer;
+}
+.blockSubmit{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.submitNewGroup{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    right: 0;
+    bottom: -230px;
+    border: none;
+    background-color:#1775ee;
+    color: white;
+    padding: 10px;
+    border-radius:5px;
+}
+
+.cancelNewGroup{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    right: 0;
+    bottom: -230px;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius:5px;
+}

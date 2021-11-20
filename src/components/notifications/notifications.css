@@ -1,0 +1,53 @@
+.notifications{
+    display: flex;
+    align-content: center;
+    cursor: pointer;
+    display: flex;
+    /* justify-content: space-between; */
+    align-content: center;
+    position: relative;
+}
+.notifications:hover{
+    background-color: #F2F3F5;
+    border-radius: 15px;
+}
+.contentBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.imgFriend{
+    padding: 10px 0 10px 10px;
+    height: 35px;
+    width:35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.notifications{
+    font-weight: 500;
+}
+.timeago{
+    font-size:12px;
+}
+
+.NewNotificationsAlert{
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 7px;
+    
+}
+
+.circlAlert{
+    background-color: limegreen;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 7px;
+    top: 20px;
+}

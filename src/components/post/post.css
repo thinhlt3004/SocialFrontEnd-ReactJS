@@ -1,0 +1,204 @@
+.post{
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    margin: 30px 0;
+}
+.postWrapper{
+    padding: 10px;
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postTopRight{
+    cursor: pointer;
+}
+.postProfileImg{
+    height:32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+   
+}
+.postTopLeft{
+    display: flex;
+    align-items: center; 
+}
+.postUserName{
+    font-size:15px;
+    font-weight:500;
+    margin: 8px 10px;
+    cursor: pointer;
+    color: black;
+}
+.postDate{
+    font-size: 12px;
+}
+.postCenter{
+    margin: 20px 0;
+}
+.postImg{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    /* contain : giu nguyen */
+    /* object-fit: contain; */
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.postLikeCounter{
+    font-size: 15px;
+}
+.postCommentText{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+    font-size: 15px;
+}
+.postToProfile{
+    display: flex;
+    text-decoration: none;
+    align-content: center;
+}
+.hrComment{
+    margin: 20px;
+    padding: 10px;
+   
+}
+.commentInput{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 30px;
+    
+}
+
+.commentCurrent{
+    width: 80%;
+    border: none;
+    background-color: #F2F3F5;
+    border-radius:5px;
+    /* margin-left: 15px; */
+}
+.commentCurrent:focus{
+    outline: none;
+    border-bottom: 2px solid #1877f2;
+}
+
+.CurrentImg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.buttonCurrent{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #1877f2;
+    cursor: pointer;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.commentContainer{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.popUpImgBlock{
+    position: fixed;
+    /* margin: calc(100%-50%); */
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    top: 70px;
+    height: calc(100vh - 50px);
+    background-color: black;
+    /* cursor: pointer; */
+}
+.closeIconPopUp{
+    /* color: white; */
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    cursor: pointer;
+}
+.cancelDiv{
+    position: relative;
+    width: 100%;
+    background-color:yellow;
+}
+.imgPopup{
+    width: 100%;
+    position: relative;
+}
+.popUpImg{
+    margin-top: 65px;
+    height: 600px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    object-fit: contain;
+}
+.locationAddressPost{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: grey;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.postCenterContent{
+    display: flex;
+    align-content: center;
+    /* justify-content: space-between; */
+}
+.feelingPostCenter{
+    font-size: 12px;
+    margin-left: 0px;
+    color: red;
+    margin-top: 3px;
+}
+.iconFeelings{
+    /* height: 15px; */
+    margin-left: 40px;
+    color: red;
+}
+
+.sharerP{
+    display: flex;
+    font-weight: 450;
+    background-color: #f2f3f5;
+    padding: 10px;
+    width: 97%;
+    margin-bottom: 5px;
+}
+.shareName{
+    color: #1877f2;
+    margin-left: 5px;
+}
+
+.shareName:hover{
+    color: red;
+}
